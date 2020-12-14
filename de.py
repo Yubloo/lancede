@@ -13,7 +13,7 @@ while nbdelanc < int(nbdelancplayer):
     if de1 + de2 == 7:
         nbde7 += 1
         print("7")
-    elif de1 + de2 != 7:
+    else:
         print(de1 + de2)
 
 print("Vérification terminée:\nPour ", nbdelancplayer, " lancé le chiffre 7 resort ", nbde7, " fois")
